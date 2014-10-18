@@ -9,6 +9,27 @@
 /* Begin PBXBuildFile section */
 		C503595619BC4ED600DFB693 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C503595519BC4ED600DFB693 /* main.cpp */; };
 		C503595819BC4ED600DFB693 /* PhysicsSimulation_22_FlagSwinging.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C503595719BC4ED600DFB693 /* PhysicsSimulation_22_FlagSwinging.1 */; };
+		C503595F19BC4F6200DFB693 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C503595E19BC4F6200DFB693 /* OpenGL.framework */; };
+		C503596119BC4F6A00DFB693 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C503596019BC4F6A00DFB693 /* GLUT.framework */; };
+		C503596319BC4F7F00DFB693 /* BulletCollision.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C503596219BC4F7F00DFB693 /* BulletCollision.framework */; };
+		C503596519BC4F9400DFB693 /* BulletDynamics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C503596419BC4F9400DFB693 /* BulletDynamics.framework */; };
+		C503596719BC4FAB00DFB693 /* LinearMath.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C503596619BC4FAB00DFB693 /* LinearMath.framework */; };
+		C503596919BC4FC200DFB693 /* BulletSoftBody.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C503596819BC4FC200DFB693 /* BulletSoftBody.framework */; };
+		C503596C19BC4FD400DFB693 /* BPWorld.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C503596A19BC4FD400DFB693 /* BPWorld.cpp */; };
+		C503599B19BC51CE00DFB693 /* btDefaultSoftBodySolver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C503598C19BC51CE00DFB693 /* btDefaultSoftBodySolver.cpp */; };
+		C503599C19BC51CE00DFB693 /* btSoftBody.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C503598D19BC51CE00DFB693 /* btSoftBody.cpp */; };
+		C503599D19BC51CE00DFB693 /* btSoftBodyConcaveCollisionAlgorithm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C503598E19BC51CE00DFB693 /* btSoftBodyConcaveCollisionAlgorithm.cpp */; };
+		C503599E19BC51CE00DFB693 /* btSoftBodyHelpers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C503598F19BC51CE00DFB693 /* btSoftBodyHelpers.cpp */; };
+		C503599F19BC51CE00DFB693 /* btSoftBodyRigidBodyCollisionConfiguration.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C503599019BC51CE00DFB693 /* btSoftBodyRigidBodyCollisionConfiguration.cpp */; };
+		C50359A019BC51CE00DFB693 /* btSoftRigidCollisionAlgorithm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C503599119BC51CE00DFB693 /* btSoftRigidCollisionAlgorithm.cpp */; };
+		C50359A119BC51CE00DFB693 /* btSoftRigidDynamicsWorld.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C503599219BC51CE00DFB693 /* btSoftRigidDynamicsWorld.cpp */; };
+		C50359A219BC51CE00DFB693 /* btSoftSoftCollisionAlgorithm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C503599319BC51CE00DFB693 /* btSoftSoftCollisionAlgorithm.cpp */; };
+		C50359A419BC51CE00DFB693 /* DemoApplication.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C503599519BC51CE00DFB693 /* DemoApplication.cpp */; };
+		C50359A519BC51CE00DFB693 /* GL_ShapeDrawer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C503599619BC51CE00DFB693 /* GL_ShapeDrawer.cpp */; };
+		C50359A619BC51CE00DFB693 /* GLDebugDrawer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C503599719BC51CE00DFB693 /* GLDebugDrawer.cpp */; };
+		C50359A719BC51CE00DFB693 /* GLDebugFont.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C503599819BC51CE00DFB693 /* GLDebugFont.cpp */; };
+		C50359A819BC51CE00DFB693 /* GlutDemoApplication.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C503599919BC51CE00DFB693 /* GlutDemoApplication.cpp */; };
+		C50359A919BC51CE00DFB693 /* GlutStuff.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C503599A19BC51CE00DFB693 /* GlutStuff.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +49,28 @@
 		C503595219BC4ED500DFB693 /* PhysicsSimulation_22_FlagSwinging */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PhysicsSimulation_22_FlagSwinging; sourceTree = BUILT_PRODUCTS_DIR; };
 		C503595519BC4ED600DFB693 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C503595719BC4ED600DFB693 /* PhysicsSimulation_22_FlagSwinging.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = PhysicsSimulation_22_FlagSwinging.1; sourceTree = "<group>"; };
+		C503595E19BC4F6200DFB693 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		C503596019BC4F6A00DFB693 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		C503596219BC4F7F00DFB693 /* BulletCollision.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BulletCollision.framework; path = "../bullet-2.82-r2704/src/BulletCollision/BulletCollision.framework"; sourceTree = "<group>"; };
+		C503596419BC4F9400DFB693 /* BulletDynamics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BulletDynamics.framework; path = "../bullet-2.82-r2704/src/BulletDynamics/BulletDynamics.framework"; sourceTree = "<group>"; };
+		C503596619BC4FAB00DFB693 /* LinearMath.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LinearMath.framework; path = "../bullet-2.82-r2704/src/LinearMath/LinearMath.framework"; sourceTree = "<group>"; };
+		C503596819BC4FC200DFB693 /* BulletSoftBody.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BulletSoftBody.framework; path = "../bullet-2.82-r2704/src/BulletSoftBody/BulletSoftBody.framework"; sourceTree = "<group>"; };
+		C503596A19BC4FD400DFB693 /* BPWorld.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BPWorld.cpp; path = PhysicsSimulation_22_FlagSwinging/BPWorld.cpp; sourceTree = "<group>"; };
+		C503596B19BC4FD400DFB693 /* BPWorld.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BPWorld.h; path = PhysicsSimulation_22_FlagSwinging/BPWorld.h; sourceTree = "<group>"; };
+		C503598C19BC51CE00DFB693 /* btDefaultSoftBodySolver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = btDefaultSoftBodySolver.cpp; path = PhysicsSimulation_22_FlagSwinging/SupportFiles/btDefaultSoftBodySolver.cpp; sourceTree = "<group>"; };
+		C503598D19BC51CE00DFB693 /* btSoftBody.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = btSoftBody.cpp; path = PhysicsSimulation_22_FlagSwinging/SupportFiles/btSoftBody.cpp; sourceTree = "<group>"; };
+		C503598E19BC51CE00DFB693 /* btSoftBodyConcaveCollisionAlgorithm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = btSoftBodyConcaveCollisionAlgorithm.cpp; path = PhysicsSimulation_22_FlagSwinging/SupportFiles/btSoftBodyConcaveCollisionAlgorithm.cpp; sourceTree = "<group>"; };
+		C503598F19BC51CE00DFB693 /* btSoftBodyHelpers.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = btSoftBodyHelpers.cpp; path = PhysicsSimulation_22_FlagSwinging/SupportFiles/btSoftBodyHelpers.cpp; sourceTree = "<group>"; };
+		C503599019BC51CE00DFB693 /* btSoftBodyRigidBodyCollisionConfiguration.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = btSoftBodyRigidBodyCollisionConfiguration.cpp; path = PhysicsSimulation_22_FlagSwinging/SupportFiles/btSoftBodyRigidBodyCollisionConfiguration.cpp; sourceTree = "<group>"; };
+		C503599119BC51CE00DFB693 /* btSoftRigidCollisionAlgorithm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = btSoftRigidCollisionAlgorithm.cpp; path = PhysicsSimulation_22_FlagSwinging/SupportFiles/btSoftRigidCollisionAlgorithm.cpp; sourceTree = "<group>"; };
+		C503599219BC51CE00DFB693 /* btSoftRigidDynamicsWorld.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = btSoftRigidDynamicsWorld.cpp; path = PhysicsSimulation_22_FlagSwinging/SupportFiles/btSoftRigidDynamicsWorld.cpp; sourceTree = "<group>"; };
+		C503599319BC51CE00DFB693 /* btSoftSoftCollisionAlgorithm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = btSoftSoftCollisionAlgorithm.cpp; path = PhysicsSimulation_22_FlagSwinging/SupportFiles/btSoftSoftCollisionAlgorithm.cpp; sourceTree = "<group>"; };
+		C503599519BC51CE00DFB693 /* DemoApplication.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DemoApplication.cpp; path = PhysicsSimulation_22_FlagSwinging/SupportFiles/DemoApplication.cpp; sourceTree = "<group>"; };
+		C503599619BC51CE00DFB693 /* GL_ShapeDrawer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GL_ShapeDrawer.cpp; path = PhysicsSimulation_22_FlagSwinging/SupportFiles/GL_ShapeDrawer.cpp; sourceTree = "<group>"; };
+		C503599719BC51CE00DFB693 /* GLDebugDrawer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GLDebugDrawer.cpp; path = PhysicsSimulation_22_FlagSwinging/SupportFiles/GLDebugDrawer.cpp; sourceTree = "<group>"; };
+		C503599819BC51CE00DFB693 /* GLDebugFont.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GLDebugFont.cpp; path = PhysicsSimulation_22_FlagSwinging/SupportFiles/GLDebugFont.cpp; sourceTree = "<group>"; };
+		C503599919BC51CE00DFB693 /* GlutDemoApplication.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GlutDemoApplication.cpp; path = PhysicsSimulation_22_FlagSwinging/SupportFiles/GlutDemoApplication.cpp; sourceTree = "<group>"; };
+		C503599A19BC51CE00DFB693 /* GlutStuff.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GlutStuff.cpp; path = PhysicsSimulation_22_FlagSwinging/SupportFiles/GlutStuff.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +78,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C503596919BC4FC200DFB693 /* BulletSoftBody.framework in Frameworks */,
+				C503596719BC4FAB00DFB693 /* LinearMath.framework in Frameworks */,
+				C503596519BC4F9400DFB693 /* BulletDynamics.framework in Frameworks */,
+				C503596319BC4F7F00DFB693 /* BulletCollision.framework in Frameworks */,
+				C503596119BC4F6A00DFB693 /* GLUT.framework in Frameworks */,
+				C503595F19BC4F6200DFB693 /* OpenGL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +93,28 @@
 		C503594919BC4ED500DFB693 = {
 			isa = PBXGroup;
 			children = (
+				C503598C19BC51CE00DFB693 /* btDefaultSoftBodySolver.cpp */,
+				C503598D19BC51CE00DFB693 /* btSoftBody.cpp */,
+				C503598E19BC51CE00DFB693 /* btSoftBodyConcaveCollisionAlgorithm.cpp */,
+				C503598F19BC51CE00DFB693 /* btSoftBodyHelpers.cpp */,
+				C503599019BC51CE00DFB693 /* btSoftBodyRigidBodyCollisionConfiguration.cpp */,
+				C503599119BC51CE00DFB693 /* btSoftRigidCollisionAlgorithm.cpp */,
+				C503599219BC51CE00DFB693 /* btSoftRigidDynamicsWorld.cpp */,
+				C503599319BC51CE00DFB693 /* btSoftSoftCollisionAlgorithm.cpp */,
+				C503599519BC51CE00DFB693 /* DemoApplication.cpp */,
+				C503599619BC51CE00DFB693 /* GL_ShapeDrawer.cpp */,
+				C503599719BC51CE00DFB693 /* GLDebugDrawer.cpp */,
+				C503599819BC51CE00DFB693 /* GLDebugFont.cpp */,
+				C503599919BC51CE00DFB693 /* GlutDemoApplication.cpp */,
+				C503599A19BC51CE00DFB693 /* GlutStuff.cpp */,
+				C503596A19BC4FD400DFB693 /* BPWorld.cpp */,
+				C503596B19BC4FD400DFB693 /* BPWorld.h */,
+				C503596819BC4FC200DFB693 /* BulletSoftBody.framework */,
+				C503596619BC4FAB00DFB693 /* LinearMath.framework */,
+				C503596419BC4F9400DFB693 /* BulletDynamics.framework */,
+				C503596219BC4F7F00DFB693 /* BulletCollision.framework */,
+				C503596019BC4F6A00DFB693 /* GLUT.framework */,
+				C503595E19BC4F6200DFB693 /* OpenGL.framework */,
 				C503595419BC4ED600DFB693 /* PhysicsSimulation_22_FlagSwinging */,
 				C503595319BC4ED500DFB693 /* Products */,
 			);
@@ -117,7 +188,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C503599B19BC51CE00DFB693 /* btDefaultSoftBodySolver.cpp in Sources */,
+				C503596C19BC4FD400DFB693 /* BPWorld.cpp in Sources */,
+				C50359A019BC51CE00DFB693 /* btSoftRigidCollisionAlgorithm.cpp in Sources */,
+				C50359A719BC51CE00DFB693 /* GLDebugFont.cpp in Sources */,
 				C503595619BC4ED600DFB693 /* main.cpp in Sources */,
+				C50359A919BC51CE00DFB693 /* GlutStuff.cpp in Sources */,
+				C50359A219BC51CE00DFB693 /* btSoftSoftCollisionAlgorithm.cpp in Sources */,
+				C503599E19BC51CE00DFB693 /* btSoftBodyHelpers.cpp in Sources */,
+				C50359A519BC51CE00DFB693 /* GL_ShapeDrawer.cpp in Sources */,
+				C503599F19BC51CE00DFB693 /* btSoftBodyRigidBodyCollisionConfiguration.cpp in Sources */,
+				C503599D19BC51CE00DFB693 /* btSoftBodyConcaveCollisionAlgorithm.cpp in Sources */,
+				C50359A419BC51CE00DFB693 /* DemoApplication.cpp in Sources */,
+				C50359A619BC51CE00DFB693 /* GLDebugDrawer.cpp in Sources */,
+				C50359A819BC51CE00DFB693 /* GlutDemoApplication.cpp in Sources */,
+				C50359A119BC51CE00DFB693 /* btSoftRigidDynamicsWorld.cpp in Sources */,
+				C503599C19BC51CE00DFB693 /* btSoftBody.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,6 +283,19 @@
 		C503595C19BC4ED600DFB693 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/east/programming/bullet-2.82-r2704/src/BulletCollision",
+					"/Users/east/programming/bullet-2.82-r2704/src/BulletDynamics",
+					"/Users/east/programming/bullet-2.82-r2704/src/LinearMath",
+					"/Users/east/programming/bullet-2.82-r2704/src/BulletSoftBody",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"/Users/east/programming/bullet-2.82-r2704/src",
+					"/Users/east/programming/bullet-2.82-r2704/Demos/OpenGL",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -204,6 +303,19 @@
 		C503595D19BC4ED600DFB693 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/east/programming/bullet-2.82-r2704/src/BulletCollision",
+					"/Users/east/programming/bullet-2.82-r2704/src/BulletDynamics",
+					"/Users/east/programming/bullet-2.82-r2704/src/LinearMath",
+					"/Users/east/programming/bullet-2.82-r2704/src/BulletSoftBody",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"/Users/east/programming/bullet-2.82-r2704/src",
+					"/Users/east/programming/bullet-2.82-r2704/Demos/OpenGL",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

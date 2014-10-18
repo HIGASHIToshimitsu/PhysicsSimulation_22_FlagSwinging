@@ -1,0 +1,9 @@
+34,37d33
+< // 柔軟物処理用ヘッダ
+< #include "BulletSoftBody/btSoftBodyHelpers.h"
+< #include "BulletSoftBody/btSoftBodyRigidBodyCollisionConfiguration.h"
+< 
+242,244d237
+<     /// 柔軟物描画関数（仮想関数として定義）
+<     virtual     void DrawBulletSoftBody(btSoftBody* sbody);
+<     
